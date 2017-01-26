@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="allChannels" class="hidden">
+    <br>
+    <h2 id="title2">Stwórz nowy kanał, bądź też dołącz do istniejącego:</h2>
+    <ul id="channelList"> <!--Built by JS --> </ul>
+    <div id="newChannelBox">
+        <input id="newChannel"  placeholder="Podaj nazwę kanału">
+        <button id="saveChannel">Dołącz!</button>
+        <button id="leaveChannel">Opuść</button>
+    </div>
+</div>
+
+<br>
+<h2  id="title3">Chat</h2>
+<div id="chatControls" class="hidden">
+    <input id="message" placeholder="Wpisz tekst wiadomości">
+    <button id="send">Wyślij</button>
+</div>
+<ul id="userlist" class="hidden"> <!-- Built by JS --> </ul>
+<div id="chat" class="hidden">    <!-- Built by JS --> </div>
+<script src="chat.js"></script>
+<script src="jquery-3.1.1.min.js"></script>
+</body>
+</html>
